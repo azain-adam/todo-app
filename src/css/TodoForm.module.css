@@ -1,0 +1,43 @@
+.formContainer {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formLabel {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.prioritySelect {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.addButton {
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #27ae60;
+}

@@ -1,0 +1,34 @@
+.listContainer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todoItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .deleteButton {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+  }
